@@ -1,2 +1,3 @@
+cmake_minimum_required(VERSION 3.16)
 PROJECT(XMLPARSER)
-ADD_EXECUTABLE(test test.c)
+ADD_SUBDIRECTORY(src bin)
